@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard-Regular';
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1920px;
+    height: 2200px;
+    background-image: url('/img/추석배경.jpg');
+}
+
+.title{
+    width: 1200px;
+}
+
+.tub_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.tub_menu li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #595959;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 13px 20px 13px 20px;
+    margin: 0 5px 0 5px;
+    
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding-bottom: 60px;
+}
+
+.product ul{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.product .text{
+    width: 363px;
+    height: 136px;
+}
+
+.product li{
+
+    width: 363px;
+    height: 521px;
+    padding-top: 23px;
+    margin: 40px 18px 0 18px;
+}
+
+.product li img{
+    width: 363px;
+    height: 363px;
+    
+    margin-bottom: 6px;
+    border-radius: 12px;
+}
+
+.product li .company{
+    color: #767676;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.product li h1{
+    margin-top: 10px;
+    font-size: 14px;
+    height: 40px;
+}
+
+.product li strong{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.product li h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price_box{
+    margin-top: 12px;
+}
+
+.price_box .rate{
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+
+.price_box .price{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+.price_box del{
+    font-size: 14px;
+    color: #767676
+}
+
+.price_box .box{
+    font-size: 12px;
+    width: 50px;
+    height: 22px;
+    color: #767676;
+    background-color: #eaeaea;
+    padding: 0 6px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 13px;
+    margin-top: 15px;
+    
+}
+
+.digi{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.product2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.product2 li{
+    width: 264px;
+    height: 414px;
+    margin: 40px 18px 0 18px;
+}
+
+
+
+.product2 li .img{
+    width: 264px;
+    height: 264px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product2 li .img img{
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom: 6px;
+}
+
+.product2 li .img img:hover{
+    scale: 1.1;
+}
+
+.product2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+    position: absolute;
+}
+
+.overlay p{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.overlay .button{
+    line-height: 38px;
+    height: 38px;
+    margin-top: 10px;
+    padding: 0 16px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.overlay .button h2{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product2 h1{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.product2 .company{
+    color: #767676;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
